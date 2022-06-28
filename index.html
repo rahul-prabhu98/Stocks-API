@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock API Trial</title>
+    <link rel="stylesheet" href="stylesheets/main.css">
+
+</head>
+<body>
+<div class = "homepage">
+    <div class = "titlebar">
+        <img src="images/stocks.png" height="42" width="42"> &nbsp;
+        <span class = "title">Stock API</span>
+    </div>
+    <br><br>
+    <div class = "bodyContent">
+
+        <div><input type = text id = "txtSearch" class = "clsSearch" placeholder="Enter Comma seperated Symbols..."><br><br>
+            <span class = "fetchApiText"> Search using fetch API</span>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <span class = "XHRText"> Search using XHR Request</span>
+            <button type="button" id="fetchAPI">Search using Fetch API</button>
+            <button type = "button" id="xhr">Search using XHR Request</button>
+        </div>
+        <div class = "responseContainer" id = "responseContainer">
+
+        </div>
+
+    </div>
+    <script src="./dist/bundle.js"></script>
+</div>
+</body>
+</html>
