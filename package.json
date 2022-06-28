@@ -1,0 +1,22 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2019/assignment-7-darshan-dedhia.git"
+  },
+  "author": "Darshan Dedhia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2019/assignment-7-darshan-dedhia/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2019/assignment-7-darshan-dedhia#readme",
+  "dependencies": {
+    "rxjs": "^6.5.3"
+  }
+}
