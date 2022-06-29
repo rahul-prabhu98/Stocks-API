@@ -143,6 +143,8 @@ function JSONDataPopulation(dataResp){
         }
         let img = document.createElement('img');
         img.src = logooUrl;
+        img.width = 40;
+        img.height = 40;
         btnDiv.innerText = symbol + "  |  " + companyName + "   ";
         btnDiv.appendChild(img);
 
