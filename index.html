@@ -16,14 +16,19 @@
     <div class = "bodyContent">
 
         <div><input type = text id = "txtSearch" class = "clsSearch" placeholder="Enter Comma seperated Symbols..."><br><br>
+
+            <label class="container">Auto Search
+                <input type="checkbox" id = "autoSearch">
+                <span class="checkmark"></span>
+            </label>
             <span class = "fetchApiText"> Search using fetch API</span>
             <label class="switch">
-                <input type="checkbox">
+                <input type="checkbox" id = "searchCheckBox">
                 <span class="slider round"></span>
             </label>
             <span class = "XHRText"> Search using XHR Request</span>
-            <button type="button" id="fetchAPI">Search using Fetch API</button>
-            <button type = "button" id="xhr">Search using XHR Request</button>
+            <button type="button" id="fetchAPI" class = "searchButton">Search using Fetch API</button>
+            <button type = "button" id="xhr" class = "searchButton">>Search using XHR Request</button>
         </div>
         <div class = "responseContainer" id = "responseContainer">
 
