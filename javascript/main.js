@@ -5,6 +5,7 @@ const btnXHR = document.getElementById('xhr');
 const responseContainer = document.getElementById('responseContainer');
 const apiURL = "https://api.worldtradingdata.com/api/v1/stock?symbol=";
 const apiKey = "&api_token=QCulWut8PpykyLXwGY7eSzSe3T8sx4hYn4zknAvTNXMeMGrYEkmmTyYjQIs4";
+// ISaWW36eNUBktqGkngclS0lTGrt8xl2k5m9wVfzk2IRHJUE8OIFOjOsXvMMn
 const txtSearch = document.getElementById('txtSearch');
 const coll = document.getElementsByClassName("collapsible");
 const searchCheckBox = document.getElementById('searchCheckBox');
