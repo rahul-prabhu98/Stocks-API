@@ -215,7 +215,7 @@ function urlExist(strurl){
     request.send();
     if (request.status === 200) {
         return true
-    } else {false};
+    } else {return false;};
 };
 
 function getFirstWord(str) {
@@ -224,4 +224,16 @@ function getFirstWord(str) {
         return str;
     else
         return str.substr(0, spacePosition);
+};
+
+window.onunload = () => {
+    subFetchApi.unsubscribe();
+    subXHR.unsubscribe();
+    srcSubscription.unsubscribe();
+};
+
+window.onbeforeunload = () => {
+    subFetchApi.unsubscribe();
+    subXHR.unsubscribe();
+    srcSubscription.unsubscribe();
 };
