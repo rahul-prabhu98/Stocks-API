@@ -4,7 +4,7 @@ A demo app for Stock API GET configuration.
 
 ## Installation
 1. Clone the repository `git clone git@github.com:neu-mis-info6150-fall-2019/assignment-7-darshan-dedhia.git`.
-2. Navigate to project directory `cd assignment-7-darshan-dedhia`.
+2. Navigate to project directory
 3. Run `npm install`.
 
 ## Build
